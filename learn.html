@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LEARN</title>
+    <link rel="stylesheet" href="learn.css">
 </head>
 <body>
 <blockquote><p>Did you ever stop to think and forget that html is just a markuplanguage?</p></blockquote>
@@ -64,9 +65,407 @@
     <img src="firstimage.png" alt="an image" width="200">
     <figcaption>This is an Image</figcaption>
 </figure>
+<h1>TABLES</h1>
+<table>
+    <tr>
+        <td>NAME</td>
+        <td>PROGRAMMING LANGUAGE</td>
+        <td>COUNTRY</td>
+    </tr>
+    <tr>
+        <td>NAOMI</td>
+        <td>JAVASCRIPT</td>
+        <td>CANADA</td>
+    </tr>
+    <tr>
+        <td>STEEPHEN IRVING</td>
+        <td>JAVA</td>
+        <td>NORTHERN IRELAND</td>
+    </tr>
+    <tr>
+        <td>BADMUS SULTAN</td>
+        <td>PHP</td>
+        <td>NIGERIA</td>
+    </tr>
+</table>
+<h3>TABLE HEADING</h3>
+<table>
+    <tr>
+        <th>DAYS/TIME</th>
+        <th>6:00 - 8:00</th>
+        <th>8:30 - 10:00</th>
+        <th>10:20 - 12:30</th>
+    </tr>
+    <tr>
+        <th>FRIDAY</th>
+        <td>MONSTER HUNTER</td>
+        <td>THE BIG FIVE</td>
+        <td>TITANS</td>
+    </tr>
+    <tr>
+        <th>SATURDAY</th>
+        <td>FATE OF THE FURIOUS</td>
+        <td>BROTHERHOOD</td>
+        <td>BACHELRE'S GAME</td>
+    </tr>
+    <tr>
+        <th>SUNDAY</th>
+        <td>OUTSIDE WIRE</td>
+        <td>BLOOD SISTER</td>
+        <td>HUNTER PREY M</td>
+    </tr>
+</table> 
+<h3 style="text-decoration: underline;">SPANNING COLUMNS</h3>
+<table>
+    <tr>
+        <th>Days/Time</th>
+        <th>8:30 - 9:45</th>
+        <th>9:50 - 10:35</th>
+        <th>10:40 - 11:30</th>
+        <th>11:35 - 12:25</th>
+        <th>12:30 - 1:30</th>
+    </tr>
+    <tr>
+        <th>MONDAY</th>
+        <td colspan="2">MATHEMATICS</td>
+        <td colspan="2">ENGLISH LANGUAGE</td>
+        <td>AGRICULTURAL SCIENCE</td>
+    </tr>
+    <tr>
+        <th>TUESDAY</th>
+        <td colspan="2">CHEMISTRY</td>
+        <td>DRAWING</td>
+        <td colspan="2">BIOLOGY</td>
+    </tr>
+    <tr>
+        <th>WEDNESDAY</th>
+        <td>GEOGRAPHY</td>
+        <td colspan="2">PHYSICS</td>
+        <td>CATERING AND CRAFT</td>
+        <td>ECONOMICS</td>
+    </tr>
+    <tr>
+        <th>THURSDAY</th>
+        <td colspan="2">BIOLOGY</td>
+        <td colspan="2">CHEMISTRY</td>
+        <td>ENGLISH LANGUAGE</td>
+    </tr>
+    <tr>
+        <th>FRIDAY</th>
+        <td colspan="2">MATHEMATICS</td>
+        <td>AGRIC SCIENCE</td>
+        <td colspan="2">ECONOMICS</td>
+    </tr>
 
+</table>
+<h3 style="text-decoration: underline;">SPANNING ROWS</h3>
+<table>
+    <tr>
+        <th>TIME/CHANNELS</th>
+        <th>AFRICAN MAGIC</th>
+        <th>BBC AFRICA</th>
+        <th>SUPER SPORT</th>
+        <th>CNN</th>
+    </tr>
+    <tr>
+        <th>6:30 - 8:25</th>
+        <td>NOLLYWOOD BLOCKBUSTER</td>
+        <td>GOOD MORNING AFRICA</td>
+        <td>BLITZ</td>
+        <td rowspan="3">TODAY'S NEWS</td>
+    </tr>
+    <tr>
+        <th>8:30 - 9:45</th>
+        <td>NOLLYWOOD GIST</td>
+        <td rowspan="2">NEWS TIME</td>
+        <td>NBA RECAP</td>
+    </tr>
+    <tr>
+        <th>9:50 - 10:55</th>
+        <td>AFRICAN CULTURE</td>
+        <td>EPL NEWS</td>
+    </tr>
+</table>
+<h3 style="text-decoration: underline;">LONG TABLE</h3>
+<table>
+    <thead>
+        <tr>
+            <th>DATE</th>
+            <th>INCOME</th>
+            <th>EXPENDITURE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>1<sup>st</sup>JANUARY</th>
+            <th>$350:00</th>
+            <th>$157:00</th>
+        </tr>
+        <tr>
+            <th>4<sup>th</sup>FEBUARY</th>
+            <th>$495:00</th>
+            <th>$195:00</th>
+        </tr>
+        <tr>
+            <th>10<sup>th</sup>MARCH</th>
+            <th>$505:00</th>
+            <th>$215:00</th>
+        </tr>
+        <tr>
+            <th>23<sup>rd</sup>APRIL</th>
+            <th>$600:00</th>
+            <th>$215:00</th>
+        </tr>
+        <tr>
+            <th>21<sup>st</sup>MAY</th>
+            <th>$595:00</th>
+            <th>$235:00</th>
+        </tr>
+        <tr>
+            <th>8<sup>th</sup>JUNE</th>
+            <th>$725:00</th>
+            <th>$195:00</th>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td></td>
+            <td>$3105:75</td>
+            <td>$1150:32</td>
+        </tr>
+    </tfoot>
 
+</table>
+<h3 style="text-decoration: underline;">WIDTH, SPACING, BORDER AND BACKGROUND</h3>
+<table width="500" cellpadding="10" cellspacing="5" border="2" bgcolor="#efefef">
+  <tr>
+    <th width="150"></th>
+    <th>WITHDRAW</th>
+    <th>CREDIT</th>
+    <th width="150" bgcolor="#cccccc">BALANCE</th>
+  </tr>
+  <tr>
+    <th>JANUARY</th>
+    <td>$250:00</td>
+    <td>$750:00</td>
+    <td bgcolor="#cccccc">$500:00</td>
+  </tr>
+  <tr>
+    <th>FEBUARY</th>
+    <td>$350:00</td>
+    <td>$600:00</td>
+    <td bgcolor="#cccccc">$250:00</td>
+  </tr>
+  <tr>
+    <th>MARCH</th>
+    <td>$500:00</td>
+    <td>$800:00</td>
+    <td bgcolor="#cccccc">$299:00</td>
+  </tr>
+  <tr height="200">
+    <th>APRIL</th>
+    <td>$380:00</td>
+    <td>$1000:00</td>
+    <td bgcolor="#cccccc">$620:00</td>
+  </tr>
+  
+</table>
 
+<h3>TEXT INPUT</h3>
+ <form action="https://www.facebook.com/index.php" method="post" id="form">
+    <p>USERNAME:
+        <input type="text" name="user" size="40" maxlength="15">
+    </p>
+ </form>
 
+ <h3>PASSWORD INPUT</h3>
+ <form action="" method="post" id="form1">
+    <p>USERNAME:
+        <input type="text" name="user" size="40" maxlength="15">
+    </p>
+    <p>PASSWORD:
+        <input type="password" name="password" size="40" maxlength="15">
+    </p>
+ </form>
+
+ <h3>TEXTAREA</h3>
+ <form action="" method="post">
+    <p>WHAT CAN YOU SAY ABOUT YOURSELF?</p>
+    <textarea name="comments" id="" cols="20" rows="4">ENTER YOUR BIO!</textarea>
+ </form>
+
+ <h3>RADIO BUTTON</h3>
+ <form action="" method="post">
+    <p>PLEASE SELECT YOUR FAVOURITE PROGRAMMING LANGUAGE: <br>
+      <input type="radio" name="php" value="PHP" checked="checked">PHP 
+      <input type="radio" name="asp" value="ASP.NET">ASP.NET 
+      <input type="radio" name="js" value="JAVASCRIPT">JAVASCRIPT
+      <input type="radio" name="java" value="JAVA">JAVA
+      <!-- note: if u want to be able to click just one radio, let them all have thesame name -->
+    </p>
+    <!-- <button style="width: 100px; height: 50px;">submit</button>
+   <div><input type="date" style="margin-top: 10px;"></div> 
+   <input type="email" style="margin: 10px 0 0 0;"> -->
+ </form>
+
+ <h3>CHECKBOX</h3>
+ <form action="" method="post">
+    <p>WHAT IS YOUR FOUVORITE CODING EDITOR'S: <br>
+    <input type="checkbox" name="vs" value="VISUAL STUDIO CODE" checked>VISUAL STUDIO CODE
+    <input type="checkbox" name="st" value="SUBLIME TEXT">SUBLIME TEXT
+    <input type="checkbox" name="vs" value="ATOM">ATOM
+    </p
+></form>
+
+<h3>DROPDOWN LIST BOX</h3>
+<form action="" method="post">
+    <p>
+        WHERE DO YOU HOST WEB PAGES FOR FREE? </p>
+        <select name="hosting" id="">
+            <option value="GITHUB" selected="selected">GITHUB</option>
+            <option value="NETFLIX">NETFLIX</option>
+            <option value="VERCEL">VERCEL</option>
+        </select>
+   
+</form>
+
+<h3>MULTIPLE SELECT BOX</h3>
+<form action="" method="post">
+    <p>CAN YOU SELECT MULTIPLE MUSIC GENRE?</p>
+    <select name="music" id="" multiple="multiple" size="3">
+        <option value="AFRO" selected="selected">AFRO</option>
+        <option value="HIP-HOP">HIP-HOP</option>
+        <option value="REGGAE" selected="selected">REGGAE</option>
+        <option value="RnB">RnB</option>
+        <option value="classical">CLASSICAL</option>
+    </select>
+</form>
+
+<h3>FILE INPUT BOX</h3>
+<form action="" method="post">
+    <p>SELECT YOUR DOCUMENT FILE</p>
+    <input type="file" name="picfile">
+</form>
+
+<h3>SUBMIT BUTTON</h3>
+<form action="" method="post">
+  <p>USERNAME:
+    <input type="text" name="user" value="Quddus" readonly>
+    <!-- readonly, hiden, disabled, just some attributes -->
+  </p>
+  <p>PASSWORD:
+    <input type="password" name="pwd">
+  </p>
+  <input type="submit" name="btns" value="LOGIN">
+</form>
+
+<h3>BUTTON AND HIDDEN CONTROLS</h3>
+<form action="" method="post">
+    <button><img src="firstimage.png" alt="an image" width="15" >Add</button>
+    <input type="hidden" name="bookmark" value="SUBMIT FORM">
+</form>
+ 
+<h3>LABELLING FORM CONTROLS</h3>
+<form action="" method="post">
+    <label for="user">USERNAME:
+        <input type="text" name="username" id="user">
+    </label> <br>
+    <label for="pwd">PASSWORD:
+        <input type="text" name="PASWORD" id="pwd">
+    </label><br>
+    <input type="submit" name="btn" value="LOGIN">
+
+</form>
+<h3>GROUPING FORM ELEMENTS</h3>
+<form action="" method="post">
+    <fieldset>
+        <legend>PROFILE DETAILS</legend>
+        <label for="fname">FIRSTNAME:
+            <input type="text" id="fname" name="txtfname">
+        </label><br>
+        <label for="mname">MIDDLENAME:
+            <input type="text" id="mname" name="txtmname">
+        </label><br>
+        <label for="lname">LASTNAME:
+            <input type="text" id="lname" name="txtlname">
+        </label><br>
+        <label for="email">EMAIL:
+            <input type="email" id="email" name="txtemail">
+        </label><br>
+        <input type="submit" name="btns" value="SUBMIT FORM">
+    </fieldset>
+
+</form>
+
+<h3>FORM VALIDATION</h3>
+<form action="" method="post">
+    <label for="user">USERNAME:
+        <input type="text" id="user" name="username" required>
+    </label><br>
+    <label for="pwd">PASSWORD:
+        <input type="text" name="password" id="pwd" required>
+    </label><br>
+    <input type="submit" name="btn" value="LOGIN">
+</form>
+
+<h3>DATE INPUT</h3>
+<form action="" method="post">
+    <p>DEPARTURE DATE:
+        <input type="date" name="deptdate" required>
+    </p>
+</form>
+
+<h3>EMAIL AND URL INPUT</h3>
+<form action="" method="post">
+    <p>EMAIL ADRESS:
+        <input type="email" name="email" required>
+    </p>
+    <p>URL ADRESS:
+        <input type="url" name="url" required>
+    </p>
+    <input type="submit" value="SUBMIT FORM">
+</form>
+
+<h3>PLACEHOLDER</h3>
+<form action="" method="post">
+    <label for="user">USERNAME:
+        <input type="text" name="username" id="user" placeholder="ENTER USERNAME" size="30" required>
+    </label><br>
+    <label for="pwd">PASSWORD:
+        <input type="password" name="password" id="pwd" placeholder="ENTER PASSWORD" size="30" required>
+    </label><br>
+    <input type="submit" name="btnl" value="LOGIN">
+</form>
+
+<h1>VIDEO   </h1>
+<video src="firstvideo.mp4" width="400" height="320" preload controls loop></video>
+
+<h1>AUDIO</h1>
+<audio src="firstaudio.mp3" controls></audio>
+
+<h1>ADDING SPECIAL CHARACTERS IN HTML</h1>
+There are some special characters that are used in and reserved by HTML code:
+1. less than sign: &lt;
+2. greater than sign: &gt;
+3. ampersand: &amp;
+4. quotation mark: &quot;
+5. cent sign: &cent;
+6. pound sign: &pound;
+7. yen sign: &yen;
+8. euro sign: &euro;
+9. copyright symbol: &copy;
+10. registered trademark: &reg;
+11. trademark: &trade;
+12. left sign quote: &lsquo;
+13. right sign quote: &rsquo;
+14. left double quote: &ldquo;
+15. right double quote: &rdquo;
+16. multiplication sign: &times;
+17. division sign: &divide;
+18. heart emoji: &hearts;
+19. white space: &nbsp;
+ 
+<h1>EMBEDDING OTHER PAGES INTO A PAGE USING IFRAME</h1>
+<iframe src="https://maps.google.co.uk/maps?q=moma+new+york&amp;output=embed" width="450" height="350" frameborder="1" scrolling="auto"></iframe>
 </body>
 </html>
