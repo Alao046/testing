@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* div.one, div.two{
+    width: 150px;
+    height: 150px;
+    background-color: #ee68e8;
+    margin: 20px;
+}
+p{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    margin: 50px;
+    position: absolute;
+}
+span {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    position: absolute;
+    background-color: blue;
+}
+p.one{
+    opacity: 0.5;
+}
+p.two {
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+
+/* body{
+    background-color: #c8c8c8;
+    background-color: hsl(0,0%,78%);
+}
+
+h1{
+    background-color: #ffffef;
+    background-color: hsla(0,100%,100%,0.5);
+} */
+
+body {
+    background-color: silver;
+    color: white;
+    padding: 20px;
+    font-family: 'poppins';
+
+}
+
+h1 {
+    background-color: #ffffff;
+    background-color: hsla(0, 100%, 100%, 0.5);
+    color: #64645A;
+    padding: inherit;
+
+}
+
+p {
+    padding: 5px;
+    margin: 0px
+}
+
+.zero {
+    background-color: rgb(238, 62, 128);
+}
+
+.one {
+    background-color: rgb(244, 90, 139);
+}
+
+.two {
+    background-color: rgb(243, 106, 152);
+}
+
+.three {
+    background-color: rgb(244, 123, 166);
+}
+
+.four {
+    background-color: rgb(245, 140, 178);
+}
+
+.five {
+    background-color: rgb(246, 159, 192);
+}
+
+.six {
+    background-color: rgb(245, 176, 204);
+}
+
+.seven {
+    background-color: rgb(0, 187, 136);
+}
+
+.eight {
+    background-color: rgb(140, 202, 242);
+}
+
+.nine {
+    background-color: rgb(114, 193, 240);
+}
+
+.ten {
+    background-color: rgb(84, 182, 237);
+}
+
+.eleven {
+    background-color: rgb(48, 170, 233);
+}
+
+.twelve {
+    background-color: rgb(0, 149, 226);
+}
+
+.thirteen {
+    background-color: rgb(0, 160, 230);
+}
+
+.fourteen {
+    background-color: rgb(0, 136, 221);
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+.test{
+    word-wrap: break-word;
+    line-height: 1.9em;
+    letter-spacing: 0.5em;
+    word-spacing: 1em;
+    text-align: center;
+
+}
+.whone{
+    vertical-align: top;
+}
+.whtwo{
+    vertical-align: baseline;
+}
+
+h1.indent{
+    text-indent: -9999px;
+}
+p.indent{
+    text-indent: 20px;
+}
+
+.shadow1{
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px #000000;
+}
+.shadow2{
+    background-color: #dddddd;
+    color: #666666;
+    text-shadow: 1px 1px 3px #666666;
+}
+.shadow3{
+    background-color: #cccccc;
+    color: #ffffff;
+    text-shadow: 2px 2px 7px red;
+}
+.shadow4{
+    background-color: #bbbbbb;
+    color: #cccccc;
+    text-shadow: 1px -1px #666666;
+}
+.shadow5{
+    background-color: #aaaaaa;
+    color: #ffffff;
+    text-shadow: -1px -1px #666666;
+}
+.intro:first-letter{
+    font-size:200%
+}
+.intro:first-line{ 
+    font-weight:bold;
+}
+
+a:link{
+    color:deeppink;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+
+input{
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #665544;
+    color:#ffffff;
+}
+.submit:hover{
+    background-color: #665544;
+}
+.submit:active{
+    background-color: chocolate;
+}
+.text{
+    color: #cccccc;
+}
+.text:focus{
+    color:red
+}
+
+.overflow{
+    /* word-wrap: break-word; */
+    background-color: red;
+    max-width: 250px;
+    max-height: 40px;
+    margin-top: 20px;
+    overflow: scroll;
+}
+
+.hen{
+    width: 300px;
+    padding: 50px;
+    border: 20px solid #0088dd;
+}
+.heen{
+    margin: 10px auto;
+    visibility: visible;
+}
+
+.rr{
+    width: 150px;
+    height: 100px;
+    border: 0px solid #000000;
+    background-color: #0088dd;
+    margin-top: 50px;
+}
+
+.one1{
+    box-shadow: -5px -5px #777777; 
+}
+.one2{
+    box-shadow: 5px 5px 5px #777777;
+}
+.one3{
+    box-shadow: 5px 5px 5px 10px #777777;
+}
+.one4{
+    box-shadow: 0 0 10px #777777;
+    border-top-right-radius: 10%;
+}
+.one5{
+    box-shadow: inset 5px 5px 5px 1px #777777;
+    border-radius: 50%;
+}
+
+ol{
+    list-style-type: decimal-leading-zero;
+}
+
+.bullets{
+    list-style-image: url("secondimage.png");
+}
+.bull{
+    margin: 10px 0px 0px 0px;
+}
+
+.marker{
+    width: 150px;
+}
+.cl{
+    margin: 10px;
+}
+.marker1{
+    list-style-position: outside;
+}
+.marker2{
+    list-style-position: inside;
+}
+.shorthand{
+    list-style: inside circle;
+    width: 300px;
+}
+.shorthand1{
+    margin-top: 10px;
+}
+
+table{
+    width: 600px;
+    border-spacing: 20px 30px;
+}
+th,td{
+    padding: 7px 10px 10px 10px;
+}
+th{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+}
+.t2{
+    background-color: #efefef;
+}
+tr:hover{
+    background-color: #c3e6e5;
+}
+.t1{
+    text-align: right;
+}

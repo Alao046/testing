@@ -237,7 +237,7 @@
 
 </table>
 <h3 style="text-decoration: underline;">WIDTH, SPACING, BORDER AND BACKGROUND</h3>
-<table width="500" cellpadding="10" cellspacing="5" border="2" bgcolor="#efefef">
+<table width="500" cellpadding="10" cellspacing="5" border="2" bgcolor="#efefef" style="empty-cells: hide;">
   <tr>
     <th width="150"></th>
     <th>WITHDRAW</th>
@@ -320,7 +320,7 @@
 <h3>DROPDOWN LIST BOX</h3>
 <form action="" method="post">
     <p>
-        WHERE DO YOU HOST WEB PAGES FOR FREE? </p>
+        WHERE DO YOU HOST WEB PAGES FOR FREE? &yen; </p>
         <select name="hosting" id="">
             <option value="GITHUB" selected="selected">GITHUB</option>
             <option value="NETFLIX">NETFLIX</option>
@@ -438,10 +438,11 @@
 </form>
 
 <h1>VIDEO   </h1>
-<video src="firstvideo.mp4" width="400" height="320" preload controls loop></video>
+<video src="firstvideo.mp4" width="400" height="320" preload="none" controls loop></video>
 
 <h1>AUDIO</h1>
 <audio src="firstaudio.mp3" controls></audio>
+<!-- video attributes: poster controls autoplay loop preload:none, auto, metadata -->
 
 <h1>ADDING SPECIAL CHARACTERS IN HTML</h1>
 There are some special characters that are used in and reserved by HTML code:
@@ -467,5 +468,11 @@ There are some special characters that are used in and reserved by HTML code:
  
 <h1>EMBEDDING OTHER PAGES INTO A PAGE USING IFRAME</h1>
 <iframe src="https://maps.google.co.uk/maps?q=moma+new+york&amp;output=embed" width="450" height="350" frameborder="1" scrolling="auto"></iframe>
+<p>anish won at the <span class="gallery">Tate modern</span> gallery in UK</p>
+
+<h1>THE END</h1>
+
+
+
 </body>
 </html>
