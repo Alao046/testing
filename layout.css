@@ -1,0 +1,215 @@
+/* absolute */
+/* .layout0{
+    position: absolute;
+    top: 0px; left: 500px;
+    width: 250px; 
+}
+.layout{
+    width: 450px;
+} */
+
+/* relative */
+/* .one22{
+    position: relative;
+    top:10px; left: 100px;  
+} */
+
+/* fixed */
+/* h1{
+    position: fixed;
+    top: 0px; left:50px;
+    padding: 10px;
+    margin: opx;
+    width: 100%;
+    background-color: #efefef;
+}
+p{
+    margin-top: 100px;
+} */
+
+/* overlapping elements */
+/* h1{
+    position: fixed;
+    top: 0px; left: 0px;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    background-color: #efefef;
+    z-index: 10;
+}
+p{
+    position: relative;
+    top: 70px;
+    left: 70px;
+} */
+
+/* floating element */
+/* blockquote{
+    float: right;
+    width: 275px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+} */
+
+/* using float to place elements side by side  */
+   /* body{
+    width: 750px;
+    font-family: Arial, verdana, sans-serif;
+    color: #665544;
+   }
+   p{
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;
+   } */
+
+   /* clearing floats */
+    /* body{
+    width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #665544;
+   }
+   p{
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;
+   }
+
+   .one{
+    clear: left;
+     /* Can take left,right, both and none 
+   }  */
+
+   /* MULTI-COLUMN LAYOUTS WITH FLOAT */
+   /* .column1of2{
+    float: left;
+    width: 620px;
+    margin: 10px;
+   }
+   .column2of2{
+    float: left;
+    width: 300px;
+    margin: 10px;
+   } */
+
+ /* FIXED WIDTH LAYOUT */
+    /* body{
+        width: 960px;
+        margin: 0 auto;
+    }
+    #content{
+        overflow: auto;
+        height: 100%;
+    }
+    #nav, #feature, #footer{
+        background-color: #efefef;
+        padding: 10px;
+        margin: 10px;
+    }
+    .column1, .column2, .column3{
+        background-color: #efefef;
+        width: 290px;
+        float: left;
+        margin:10px;
+        padding-left: 10px;
+    }
+    li{
+        display: inline;
+        padding: 5px;
+    } */
+
+    /* LIQUID LAYOUT */
+    /* body{
+        width: 90%;
+        margin: 0 auto;
+        }
+    #content{
+        overflow: auto;
+    }    
+    #nav, #feature, #footer{
+        margin: 1%;
+    }
+    .column1, .column2, .column3{
+        width: 31.3%;
+        float: left;
+        margin: 0 auto;
+    }
+    .column3{
+        margin-right: 0%;
+    }
+    li{
+        display: inline;
+        padding: 0.5em;
+    }
+    #nav, #footer{
+        background-color: #efefef;
+        padding: 0.5em 0;
+    }
+    #faeture, .article {
+        height: 10em;
+        margin-bottom: 1em;
+        background-color: #efefef;
+    } */
+
+
+
+    /* BACKGROUND IMAGE */
+    /* body{
+        color: white;
+        background-image: url("thirdimage.png");
+    } */
+
+    /* REPEATING IMAGES */
+    /* body{
+        background-image: url("thirdimage.png");
+        background-repeat: repeat-y;
+        color: blue;
+    } */
+
+    /* BACKGROUND ATTACHMENT */
+    /* body{
+        background-image: url("thirdimage.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: red;
+    } */
+
+    /* BACKGROUND POSITION */
+    /* body{
+        background-image: url("thirdimage.png");
+        background-repeat: no-repeat;
+        color: antiquewhite;
+        background-position: center top;
+    } */
+
+    /* SHORTHAND */
+    /* body {
+        background: #ffffff url("thirdimage.png") no-repeat top right;
+        color: green;
+    } */
+
+    /* BACKGROUND SIZE */
+    body {
+        background-image: url("fourthimage.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: red;
+    }
+
+
+
+       
+
+
+
+
+
